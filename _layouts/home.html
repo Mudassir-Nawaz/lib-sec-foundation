@@ -1,0 +1,195 @@
+---
+layout: default
+---
+
+<!-- Hero Section -->
+
+<section class="bg-darkPurple p-6 py-16 pb-28">
+    <div class="container mx-auto">
+        <div class="flex flex-col-reverse md:justify-between items-center md:flex-row text-white space-y-8 md:space-y-0">
+            <div class="w-full">
+                <img src="{{'/assets/img/rsz_drawkit_vector_illustration_team_work_11.png'}}" class="w-full" alt="hero image">
+            </div>
+            <div class="flex flex-col text-center md:text-left space-y-3 md:space-y-8">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl">Building next level security solutions</h1>
+                <p class="text-xl  text-gray">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id corrupti sapiente alias tempore voluptatum aspernatur magnam nulla minus officia nemo!</p>
+                <div>
+                    <button class="md:text-left bg-themeGreen hover:opacity-90 rounded-sm hover:text-white transition-all px-6 py-3 hover:shadow-md">GET A QUOTE</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Stats Section -->
+
+<section class="bg-cinereous p-6 pb-20">
+    <div class="container mx-auto space-y-9">
+        <div class="flex flex-col space-y-6 items-center">
+            <div class="flex flex-col lg:flex-row justify-center md:justify-between">
+                <div class="w-full lg:w-1/2 py-8 md:py-14 space-y-3 text-center md:text-left">
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl text-white">What statistics tell about us</h1>
+                    <p class="text-xl text-lightGray lg:max-w-md max-w-full">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid aperiam beatae consequuntur cum praesentium? Totam dicta sed similique aliquid ea. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, ipsa!</p>
+                </div>
+                <div class="w-full lg:w-1/2">
+                    <img src="{{'/assets/img/freestocks-I_pOqP6kCOI-unsplash_75_1_42.jpg'}}" alt="Stats image" class="w-full rounded-md lg:pt-16">
+                </div>
+            </div>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 space-y-10 sm:space-y-2 lg:space-y-0">
+            {% for stat in page.stats %}
+            <div class="flex flex-col justify-center items-center text-black rounded-md">
+                <div class="text-3xl font-bold text-white mx-16 text-center">{{stat.value}}</div>
+                <div class="xl:text-lg lg:text-xl md:text-2xl sm:text-2xl text-3xl font-bold mx-16 text-center text-lightGray">{{stat.title}}</div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+
+<section class="p-10" id="about">
+    <div class="container mx-auto">
+        <!-- About -->
+        <div class="flex flex-col-reverse md:flex-row border-b-2 border-black pb-5">
+            <div class="hidden md:block md:w-1/3">
+                <img src="{{'/assets/img/DrawKit Vector Illustration Team Work (18).png'}}" alt="" class="">
+            </div>
+            <div class="text-center w-full md:w-2/3 md:text-left space-y-3 px-5">
+                <h1 class="text-themeGreen font-bold text-lg">About Us</h1>
+                <h1 class="text-3xl">Why We Are Best</h1>
+                <p class="text-gray text-base">{{ page.about }}</p>
+                <div class="flex flex-col md:flex-row md:space-x-3 space-y-4 md:space-y-0 max-w-xs md:max-w-full mx-auto md:mx-0">
+                    <button class="rounded-full px-6 py-3 bg-darkPurple hover:opacity-90 text-white transition-all">GET A QUOTE</button>
+                    <button class="rounded-full px-6 py-3 bg-themeGreen hover:opacity-90 text-white transition-all">TALK TO AN AGENT</button>
+                </div>
+            </div>
+        </div>
+        <!-- Posts -->
+        <div class="flex flex-col p-8 gap-10 border-b-2 border-black">
+            <div class="space-y-1 py-3">
+                <h1 class="text-themeGreen text-2xl">Blog</h1>
+                <p class="text-gray text-xl">Learn more about what we do</p>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+                {% for post in site.posts %}
+                <a href="{{ post.url | relative_url}}" class="cursor-pointer bg-lightGray px-7 py-10 rounded-md hover:shadow-xl transition-all lg:space-y-0 md:space-y-2">
+                    <i class="fa-solid fa-book text-2xl font-bold"></i>
+                    <div class="font-bold text-lg">{{post.title}}</div>
+                    <div class="font-bold text-lg">{{post.date | date: '%B %d, %Y'}}</div>
+                </a>
+                {% endfor %}
+            </div>
+        </div>
+        <!-- Testimonials -->
+        <div class="container mx-auto pt-12">
+            <h1 class="sm:text-xl text-lg text-center text-themeGreen">What Our Customers Say About Us</h1>
+            <h1 class="sm:text-4xl text-xl text-center">Testimonials</h1>
+            <div class="grid grid-cols-1 md:grid-cols-3 items-center text-center gap-4 px-5 pt-6">
+                {% for item in page.testimonials %}
+                <div class="bg-white px-10 py-8 border border-themeGreen text-center md:text-left group">
+                    <div>
+                        <i class="fa-solid fa-user text-4xl font-bold transition-all border border-black rounded-full px-2 py-2 group-hover:bg-black group-hover:text-white"></i>
+                        <div class="font-bold text-lg">{{item.title}}</div>
+                        <div class="font-bold text-lg">{{item.comment}}</div>
+                        <div class="text-themeGreen">{{item.client}}</div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Services Section -->
+
+<section class="bg-themeGreen py-10 px-6" id="services">
+    <div class="container mx-auto">
+        <div class="flex flex-col space-y-10">
+            <div class="text-white text-center space-y-3 mx-5">
+                <h2 class="lg:text-2xl text-xl font-bold">Our Services</h2>
+                <h1 class="lg:text-4xl text-2xl">We provide all kinds of services from A to B</h1>
+            </div>
+            <!-- Services -->
+            <div class="grid grid-cols-1 md:grid-cols-3 items-center text-center gap-4 px-5">
+                {% for service in page.services %}
+                <div class="bg-white px-10 py-8 shadow-xl space-y-2">
+                    <div class="font-bold text-2xl">
+                        {{service.title}}
+                    </div>
+                    <div class="text-lg">
+                        {{service.description}}
+                    </div>
+                    <button class="px-4 py-2 bg-darkPurple text-white rounded-md hover:opacity-90">Order Now</button>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+
+<section class="bg-darkPurple text-white p-10">
+    <div class="container mx-auto">
+        <div class="flex flex-col-reverse md:flex-row justify-center md:justify-between items-start">
+            <form class="w-full md:w-1/2 text-black" action="{{page.url | relative_url}}" method="GET">
+                <div class="flex flex-wrap -mx-3 mb-6">
+                    <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                        <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
+                            First Name
+                        </label>
+                        <input class="appearance-none block w-full bg-gray-200 text-gray-700 border  -red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Jane">
+                    </div>
+                    <div class="w-full md:w-1/2 px-3">
+                        <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
+                            Last Name
+                        </label>
+                        <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-themeGreen" id="grid-last-name" type="text" placeholder="Doe">
+                    </div>
+            </div>
+            <div class="flex flex-wrap -mx-3 mb-6">
+                <div class="w-full px-3">
+                    <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
+                        E-mail
+                    </label>
+                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-themeGreen" id="email" type="email">
+                </div>
+            </div>
+            <div class="flex flex-wrap -mx-3 mb-6">
+                <div class="w-full px-3">
+                    <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
+                        Message
+                    </label>
+                <textarea class=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-themeGreen h-48 resize-none" id="message"></textarea>
+              </div>
+            </div>
+            <div class="md:flex md:items-center">
+                <div class="md:w-1/3">
+                <button class="transition-all bg-white text-darkPurple hover:bg-darkPurple hover:text-white hover:outline-none hover:outline-2 hover:outline-white font-bold py-2 px-4 rounded" type="button">
+                    Send
+                </button>
+            </div>
+        </form>
+    </div>
+    <div class="w-full md:w-1/2 mb-14">
+        <div class="text-left">
+            <div class="text-4xl text-center my-20">Let's work together...</div>
+            <div class="flex space-x-3 items-center justify-evenly text-center">
+                <div class="space-y-1">
+                    
+                    <i class="fa-solid fa-phone text-4xl hover:text-themeGreen"><a href="tel:{{site.phone}}" class=""></a></i>
+                    <div>Click Me</div>
+                    <div>{{ site.phone }}</div>
+                </div>
+                <div class="space-y-1">
+                    <i class="fa-solid fa-envelope text-4xl hover:text-themeGreen"><a href="mailto:{{site.email}}" class=""></a></i>
+                    <div>Click Me</div>
+                    <div class="">{{ site.email }}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>

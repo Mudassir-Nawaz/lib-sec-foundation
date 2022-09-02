@@ -1,0 +1,9 @@
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+tailwind.config.js
+package.json
+package-lock.json
+node_modules
