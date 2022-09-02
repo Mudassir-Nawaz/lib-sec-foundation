@@ -21,15 +21,42 @@ layout: default
     </div>
 </section>
 
+<!-- Services Section -->
+
+<section class="bg-themeGreen py-10 px-6" id="services">
+    <div class="container mx-auto">
+        <div class="flex flex-col space-y-10">
+            <div class="text-white text-center space-y-3 mx-5">
+                <h2 class="lg:text-2xl text-xl font-bold">Our Services</h2>
+                <h1 class="lg:text-4xl text-2xl">We provide all kinds of services from A to B</h1>
+            </div>
+            <!-- Services -->
+            <div class="grid grid-cols-1 md:grid-cols-3 items-center text-center gap-4 px-5">
+                {% for service in page.services %}
+                <div class="bg-white px-10 py-8 shadow-xl space-y-2">
+                    <div class="font-bold text-2xl">
+                        {{service.title}}
+                    </div>
+                    <div class="text-lg">
+                        {{service.description}}
+                    </div>
+                    <button class="px-4 py-2 bg-darkPurple text-white rounded-md hover:opacity-90">Order Now</button>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- Stats Section -->
 
 <section class="bg-cinereous p-6 pb-20">
     <div class="container mx-auto space-y-9">
         <div class="flex flex-col space-y-6 items-center">
             <div class="flex flex-col lg:flex-row justify-center md:justify-between">
-                <div class="w-full lg:w-1/2 py-8 md:py-14 space-y-3 text-center md:text-left">
+                <div class="w-full lg:w-1/2 py-8 md:py-14 space-y-8 text-center md:text-left">
                     <h1 class="text-4xl md:text-5xl lg:text-6xl text-white">What statistics tell about us</h1>
-                    <p class="text-xl text-lightGray lg:max-w-md max-w-full">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid aperiam beatae consequuntur cum praesentium? Totam dicta sed similique aliquid ea. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, ipsa!</p>
+                    <p class="text-xl text-lightGray lg:max-w-md max-w-full mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid aperiam beatae consequuntur cum praesentium? Totam dicta sed similique aliquid ea. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, ipsa!</p>
                 </div>
                 <div class="w-full lg:w-1/2">
                     <img src="{{'/assets/img/freestocks-I_pOqP6kCOI-unsplash_75_1_42.jpg' | relative_url}}" alt="Stats image" class="w-full rounded-md lg:pt-16">
@@ -102,32 +129,6 @@ layout: default
     </div>
 </section>
 
-<!-- Services Section -->
-
-<section class="bg-themeGreen py-10 px-6" id="services">
-    <div class="container mx-auto">
-        <div class="flex flex-col space-y-10">
-            <div class="text-white text-center space-y-3 mx-5">
-                <h2 class="lg:text-2xl text-xl font-bold">Our Services</h2>
-                <h1 class="lg:text-4xl text-2xl">We provide all kinds of services from A to B</h1>
-            </div>
-            <!-- Services -->
-            <div class="grid grid-cols-1 md:grid-cols-3 items-center text-center gap-4 px-5">
-                {% for service in page.services %}
-                <div class="bg-white px-10 py-8 shadow-xl space-y-2">
-                    <div class="font-bold text-2xl">
-                        {{service.title}}
-                    </div>
-                    <div class="text-lg">
-                        {{service.description}}
-                    </div>
-                    <button class="px-4 py-2 bg-darkPurple text-white rounded-md hover:opacity-90">Order Now</button>
-                </div>
-                {% endfor %}
-            </div>
-        </div>
-    </div>
-</section>
 
 <!-- Contact Section -->
 
