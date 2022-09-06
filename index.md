@@ -28,20 +28,20 @@ services:
   - title: Discover
     description: We don't just talk about vulnerabilities, it is our pashion to find them. Let us find the next big CVE in your product or businesss-critical service.
   - title: Evalutate
-    description: Want to keep your data safe? Let us evaluate your systems for vulnerablites and compliance requirements.
+    description: Want to keep your data safe? Need to comply with industry or government regulations? Let us find your vulnerablites before the bad guys do.
   - title: Remediate
-    description: Other providers tell you what's broken, but leave you to fix it yourself. Our team will stay with you until the problem is resolved.
+    description: Other providers tell you what's broken, leaving you to fix it yourself. With our rediation services our team stays with your team until the problem is resolved.
 
-about: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+about: We are different from other cyber assessment orgnizations- we know no orgnization intends to be insecure. We are obsessed with preventing cyber attacks, but understand your orgnization has other problems to solve. So we approach every client with the ethos of compashonate understanding. Our experts educate rather than chastize. Becuase if you cyber risk before loosing access to files, having customer data leaked on the web, or suffering an embarassing defacement attack it may never happen.
 
 testimonials:
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Consectetur Adipiscing Elit
     comment: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    client: Juniper Health Systems
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    client: Example Health Systems
+  - title: Ullamco Laboris Nisi
     comment: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    client: Fredricks Medical Clinic
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    client: Reference Government Agency
+  - title: Nostrud Exercitation Ullamco
     comment: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    client: American Business Systems
+    client: Example Bankning Client
 ---
