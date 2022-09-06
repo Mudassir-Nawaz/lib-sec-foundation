@@ -26,11 +26,11 @@ stats:
 
 services:
   - title: Discover
-    description: We don't just talk about vulnerabilities, it is our pashion to find them. Let us find the next big CVE in your product or businesss-critical service.
+    description: We don't just talk about vulnerabilities, it is our passion to find them. Let us find the next big CVE in your product or business-critical service.
   - title: Evalutate
-    description: Want to keep your data safe? Need to comply with industry or government regulations? Let us find your vulnerablites before the bad guys do.
+    description: Want to keep your data safe? Need to comply with industry or government regulations? Let us find your vulnerabilities before the bad guys do.
   - title: Remediate
-    description: Other providers point out what's broken, but leave you to fix it. With our rediation services we'll stay with you until the problem is resolved.
+    description: Other providers point out what's broken, but leave you to fix it. With our remediation services we'll stay with you until the problem is resolved.
 
 about:  We are obsessed with preventing cyber attacks, but understand your organization has other objectives. With the knowledge that no organization intends to be insecure. We approach every client with the ethos of compassionate understanding. Our experts educate rather than chastise. Because if you understand, accept, and work to improve your cyber risk before losing access to files, having customer data leaked on the web, or suffering an embarrassing defacement attack the worst may never happen.
 
