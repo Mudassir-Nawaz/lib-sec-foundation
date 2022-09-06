@@ -17,8 +17,8 @@ nav5: Contact
 stats:
   - title: Damages Prevented
     value: $167.3M
-  - title: Incidents Responded To
-    value: 47
+  - title: Finding Remediated
+    value: 47,000
   - title: Breaches Prevented
     value: 100+
   - title: Satisfied Clients
