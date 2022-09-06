@@ -30,7 +30,7 @@ services:
   - title: Evalutate
     description: Want to keep your data safe? Need to comply with industry or government regulations? Let us find your vulnerablites before the bad guys do.
   - title: Remediate
-    description: Other providers point out what's broken, but leave you to fix it. With our rediation services we'll stay with you until solve the problem is resolved.
+    description: Other providers point out what's broken, but leave you to fix it. With our rediation services we'll stay with you until the problem is resolved.
 
 about:  We are obsessed with preventing cyber attacks, but understand your orgnization has other problems to solve. With the knowledge that no orgnization intends to be insecure. We approach every client with the ethos of compashonate understanding. Our experts educate rather than chastize. Becuase if you understand, accept, and work to improve your cyber risk before loosing access to files, having customer data leaked on the web, or suffering an embarassing defacement attack the worst may never happen.
 
