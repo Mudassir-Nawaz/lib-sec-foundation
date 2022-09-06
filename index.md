@@ -20,7 +20,7 @@ stats:
   - title: Awards
     value: 25
   - title: Combined Experience
-    value: >25
+    value: 25
   - title: Satisfied Clients
     value: 35+
 
