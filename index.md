@@ -12,7 +12,7 @@ nav3: About Us
 nav4: Testimonials
 nav5: Contact
 
-# sTATS AND SERVICES
+# STATS AND SERVICES
 
 stats:
   - title: Damages Prevented
@@ -30,9 +30,9 @@ services:
   - title: Evalutate
     description: Want to keep your data safe? Need to comply with industry or government regulations? Let us find your vulnerablites before the bad guys do.
   - title: Remediate
-    description: Other providers tell you what's broken, leaving you to fix it yourself. With our rediation services our team stays with your team until the problem is resolved.
+    description: Other providers point out what's broken, but leave you to fix it. With our rediation services we'll stay with you until solve the problem is resolved.
 
-about: We are different from other cyber assessment orgnizations- we know no orgnization intends to be insecure. We are obsessed with preventing cyber attacks, but understand your orgnization has other problems to solve. So we approach every client with the ethos of compashonate understanding. Our experts educate rather than chastize. Becuase if you cyber risk before loosing access to files, having customer data leaked on the web, or suffering an embarassing defacement attack it may never happen.
+about:  We are obsessed with preventing cyber attacks, but understand your orgnization has other problems to solve. With the knowledge that no orgnization intends to be insecure. We approach every client with the ethos of compashonate understanding. Our experts educate rather than chastize. Becuase if you understand, accept, and work to improve your cyber risk before loosing access to files, having customer data leaked on the web, or suffering an embarassing defacement attack the worst may never happen.
 
 testimonials:
   - title: Consectetur Adipiscing Elit
