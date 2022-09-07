@@ -14,7 +14,9 @@ layout: default
                 <h1 class="text-4xl md:text-5xl lg:text-6xl">Simple Compassionate Information Security</h1>
                 <p class="text-xl  text-gray">A foundation of expertise in every domain of cybersecurity, a sense of care and understanding enabling your data to stay your data.</p>
                 <div>
-                    <button class="md:text-left bg-themeGreen hover:opacity-90 rounded-sm hover:text-white transition-all px-6 py-3 hover:shadow-md">GET A QUOTE</button>
+                    <a href="{{'/#contact' | relative_url}}">    
+                        <button class="md:text-left bg-themeGreen hover:opacity-90 rounded-sm hover:text-white transition-all px-6 py-3 hover:shadow-md">GET A QUOTE</button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -40,7 +42,9 @@ layout: default
                     <div class="text-lg">
                         {{service.description}}
                     </div>
-                    <button class="px-4 py-2 bg-darkPurple text-white rounded-md hover:opacity-90">Order Now</button>
+                    <a href="{{'/#contact' | relative_url}}">
+                        <button class="px-4 py-2 bg-darkPurple text-white rounded-md hover:opacity-90">Order Now</button>
+                    </a>
                 </div>
                 {% endfor %}
             </div>
@@ -105,8 +109,10 @@ layout: default
                 <h1 class="text-3xl">Why We Are Different</h1>
                 <p class="text-gray text-base">{{ page.about }}</p>
                 <div class="flex flex-col md:flex-row md:space-x-3 space-y-4 md:space-y-0 max-w-xs md:max-w-full mx-auto md:mx-0">
-                    <button class="rounded-full px-6 py-3 bg-darkPurple hover:opacity-90 text-white transition-all">GET A QUOTE</button>
-                    <button class="rounded-full px-6 py-3 bg-themeGreen hover:opacity-90 text-white transition-all" >SEND US AN EMAIL</button>
+                    <a href="{{'/#contact' | relative_url}}" class="rounded-full px-6 py-3 bg-darkPurple hover:opacity-90 text-white transition-all">
+                        GET A QUOTE
+                    </a>
+                    <a href="mailto:{{site.email}}" class="rounded-full px-6 py-3 bg-themeGreen hover:opacity-90 text-white transition-all" >SEND US AN EMAIL</a>
                 </div>
             </div>
         </div>
