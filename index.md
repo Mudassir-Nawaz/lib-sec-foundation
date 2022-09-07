@@ -15,14 +15,15 @@ nav5: Contact
 # STATS AND SERVICES
 
 stats:
+  - title: Findings Remediated
+    value: 47k+
   - title: Damages Prevented
     value: $167.3M
-  - title: Finding Remediated
-    value: 47,000
-  - title: Breaches Prevented
-    value: 100+
   - title: Satisfied Clients
     value: 35+
+  - title: Breaches Prevented
+    value: 100+
+
 
 services:
   - title: Discover
