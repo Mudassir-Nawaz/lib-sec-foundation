@@ -32,7 +32,7 @@ services:
   - title: Remediate
     description: Other providers point out what's broken, but leave you to fix it. With our remediation services we'll stay with you until the problem is resolved.
 
-about:  We are obsessed with preventing cyber attacks, but understand your organization has other objectives. With the knowledge that no organization intends to be insecure. We approach every client with the ethos of compassionate understanding. Our experts educate rather than chastise. Because if you understand, accept, and work to improve your cyber risk before losing access to files, having customer data leaked on the web, or suffering an embarrassing defacement attack the worst may never happen.
+about: We are obsessed with preventing cyber attacks, but understand your organization has other objectives. Knowing no organization intends to be insecure, we approach every client with the ethos of compassionate understanding. Our experts educate rather than chastise. Because if you understand, accept, and work to improve your cyber risk, vulnerabilities can be mitigated before losing access to files, having customer data leaked on the web, or suffering an embarrassing defacement attack.
 
 testimonials:
   - title: Consectetur Adipiscing Elit
