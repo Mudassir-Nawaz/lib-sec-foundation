@@ -26,13 +26,13 @@ stats:
 
 services:
   - title: Discover
-    description: We don't just talk about vulnerabilities, it is our passion to find them. Let us find the next big CVE in your product or business-critical service.
+    description: We are obsessed with preventing cyber attacks, but understand your organization has other objectives. Our experts educate and foster shared understaning
   - title: Evalutate
-    description: Want to keep your data safe? Need to comply with industry or government regulations? Let us find your vulnerabilities before the bad guys do.
+    description: No two organizations are the same, and cyber risk needs evaluated in its own context. We’ll work with you to understand your risk, and develop a custom plan of defense.
   - title: Remediate
     description: Other providers point out what's broken, but leave you to fix it. With our remediation services we'll stay with you until the problem is resolved.
 
-about: We are obsessed with preventing cyber attacks, but understand your organization has other objectives. Knowing no organization intends to be insecure, we approach every client with the ethos of compassionate understanding. Our experts educate rather than chastise. Because if you understand, accept, and work to improve your cyber risk, vulnerabilities can be mitigated before losing access to files, having customer data leaked on the web, or suffering an embarrassing defacement attack.
+about: We are an applied science research foundation organized as a for-profit Delaware C-Corp. Our focus is helping organizations understand cyber risk, and protect themselves from emerging threats with cutting edge countermeasures. By discovering and licensing advanced cybersecurity methodologies, and analytical heuristics we strive to make the world a more secure place.
 
 testimonials:
   - title: Consectetur Adipiscing Elit
