@@ -16,7 +16,7 @@ nav5: Contact
 
 stats:
   - title: Damages Prevented
-    value: $167.3M
+    value: $100M+
   - title: Satisfied Clients
     value: 35+
   - title: Breaches Prevented
@@ -30,7 +30,7 @@ services:
   - title: Evalutate
     description: No two organizations are the same, and cyber risk needs evaluated in its own context. We’ll work with you to understand your risk, and develop a custom plan of defense.
   - title: Remediate
-    description: Other providers point out what's broken, but leave you to fix it. With our remediation services we'll stay with you until the problem is resolved.
+    description: Other cybersecurity assessment providers point out what's broken, but leave you to fix it. With our remediation services we'll stay with you until the problem is resolved.
 
 about: We are an applied science research foundation organized as a for-profit Delaware C-Corp. Our focus is helping organizations understand cyber risk, and protect themselves from emerging threats with cutting edge countermeasures. By discovering and licensing advanced cybersecurity methodologies, and analytical heuristics we strive to make the world a more secure place.
 
